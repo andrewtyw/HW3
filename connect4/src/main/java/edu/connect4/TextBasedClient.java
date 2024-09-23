@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  * The TextBasedClient is a client for the Connect 4 game, it receives inputs such as
- * player's name and the location to drop the disc from the CLI. At each turn, it will
+ * player's name and the column location to drop the disc from the CLI. At each turn, it will
  * print out the current board using text. And it also gives prompts to guide the user
  * to play games.
  */
