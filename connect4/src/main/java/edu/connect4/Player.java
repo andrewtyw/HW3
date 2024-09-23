@@ -3,7 +3,7 @@ package edu.connect4;
 /**
  * The Player class represents a player in the Connect 4 game.
  */
-class Player {
+public class Player {
     private final String color;
     private final String name;
 
@@ -27,6 +27,11 @@ class Player {
         return color;
     }
 
+    /**
+     * Returns the player's name
+     *
+     * @return A string representing the player's name.
+     */
     public String getName() {
         return name;
     }

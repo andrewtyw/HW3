@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * The Board class represents a board in the Connect 4 game board.
  */
-class Board {
+public class Board {
     private static final int WIDTH = 7, HEIGHT = 6;
     // all the directions when checking if 4 disks are connected
     private static final int[][] directions = new int[][]{

@@ -42,7 +42,7 @@ package edu.connect4;
 /**
  * The Game class manages the flow of the Connect 4 game.
  */
-class Game {
+public class Game {
     private final Board board;
     private final Player player1;
     private final Player player2;
