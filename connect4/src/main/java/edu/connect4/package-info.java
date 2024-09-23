@@ -1,5 +1,7 @@
 /**
- * This implementation represents the game of Connect 4, a two-player strategy game. Each player chooses a color 
+ * <h1>Connect4 API</h1>
+ * 
+ * This API represents the game of Connect 4, a two-player strategy game. Each player chooses a color 
  * and then takes turns dropping their disk into a 6 by 7 vertically suspended board. The objective is to form a line 
  * of four disks horizontally, vertically, or diagonally while taking turns.
  * 
