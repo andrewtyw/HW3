@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"edu.connect4","l":"Renderer"},{"p":"edu.connect4","l":"TextBasedClient"}];updateSearchResults();
