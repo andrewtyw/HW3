@@ -42,7 +42,7 @@ public class Board {
      * or out of bounds.
      */
     public boolean makeMove(Player player, int column) {
-        if (isColumnFull(column) || column < 0 || column > HEIGHT) {
+        if (column < 0 || column > WIDTH || isColumnFull(column)) {
             return false;
         }
         columnDiskCounts[column]++;

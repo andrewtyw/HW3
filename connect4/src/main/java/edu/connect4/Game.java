@@ -80,8 +80,9 @@ public class Game {
      *
      * @param column The column number at which the current player wants to drop the
      * disk. Must be an integer between 0 and 6 inclusive.
-     * @return true if the play is a success. false if the play is invalid (column is
-     * full or out of bounds) or if there is a tie.
+     * @return {@code true} if the play is valid and the disk is successfully placed. 
+     *         {@code false} if the play is invalid (e.g., the column is full, out of bounds), 
+     *         or if there is a tie.
      */
     public boolean play(int column) {
         boolean madeMove = board.makeMove(currentPlayer, column);
