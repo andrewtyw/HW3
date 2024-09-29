@@ -8,7 +8,7 @@ import java.util.Objects;
 public class Board {
     private static final int WIDTH = 7, HEIGHT = 6;
     // all the directions when checking if 4 disks are connected
-    private static final int[][] directions = new int[][]{
+    private static final int[][] DIRECTIONS = new int[][]{
             {-1, 0}, {1, 0}, {0, 1}, {0, -1},
             {-1, -1}, {-1, 1}, {1, -1}, {1, 1}
     };
@@ -66,7 +66,7 @@ public class Board {
             for (int j = 0; j < WIDTH; j++) {
                 if (!Objects.equals(grid[i][j], player.getColor())) continue;
                 // check if the current position is a start point for a 4-connected disk
-                for (int[] direction : directions) {
+                for (int[] direction : DIRECTIONS) {
                     int dx = direction[0], dy = direction[1];
                     boolean connected = true;
                     // check if the remaining 3 disks are connected in a certain direction
