@@ -41,7 +41,7 @@ package edu.connect4;
 
 /**
  * The Game class manages the flow of the Connect 4 game.
- * The Game object is immutable, so when the game ends, or users wants to rest the game,
+ * The Game object is immutable, so when the game ends, or users want to rest the game,
  * they should create a new Game object.
  */
 public class Game {
