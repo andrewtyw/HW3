@@ -21,6 +21,9 @@
  * </ul>
  * After the game ends, the winner can be retrieved if it exists.
  * 
+ * Note: Once the game ends (either by a win or a tie), further moves are not allowed.
+ * To start a new game, a new instance of the Game object must be created to play a new game.
+ * 
  * <h2>Example Usage</h2>
  * <pre>{@code
  * // Create two players
