@@ -42,7 +42,7 @@ public class Board {
      * or out of bounds.
      */
     public boolean makeMove(Player player, int column) {
-        if (column < 0 || column > WIDTH || isColumnFull(column)) {
+        if (column < 0 || column >= WIDTH || isColumnFull(column)) {
             return false;
         }
         columnDiskCounts[column]++;
@@ -129,12 +129,8 @@ public class Board {
      * in that column.
      *
      * @return true if the column is full, else false.
-     * @throws IllegalArgumentException when the column is out of index
      */
-    private boolean isColumnFull(int column) throws IllegalArgumentException{
-        if(column>=WIDTH) {
-            throw new IllegalArgumentException();
-        }
+    private boolean isColumnFull(int column) {
         return columnDiskCounts[column] == HEIGHT;
     }
 }
