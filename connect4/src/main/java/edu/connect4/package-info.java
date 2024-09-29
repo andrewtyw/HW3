@@ -32,7 +32,7 @@
  * g.startGame();
  * 
  * // Players take turns playing the game
- * g.play(0);          // Player 1 drops disk in column 0
+ * g.play(1);          // Player 1 drops disk in column 1
  * g.checkGameOver();  // Check if the game is over
  * 
  * g.play(3);          // Player 2 drops disk in column 3
